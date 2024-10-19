@@ -1,0 +1,58 @@
+.expense_item_details_div {
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.item_price_div {
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+}
+
+.item_div {
+    display: flex;
+    flex-flow: column;
+}
+
+.item_name_div {
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.location_div {
+    color: white;
+    font-size: 10px;
+    margin-left: 0px;
+}
+
+.type_div {
+    color: greenyellow;
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+.price_div {
+    width: 100px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 5px;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.options_div{
+    width: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}

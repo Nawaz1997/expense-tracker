@@ -1,0 +1,34 @@
+.date_div {
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+}
+
+.month {
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.year {
+    color: white;
+    font-size: small;
+    font-weight: 900;
+}
+
+.day {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.month_year_div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
