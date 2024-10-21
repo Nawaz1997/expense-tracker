@@ -1,0 +1,23 @@
+.navbar_div {
+    height: 50px;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    
+}
+
+.name_div {
+    color: blue;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.list_div {
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 50px;
+}

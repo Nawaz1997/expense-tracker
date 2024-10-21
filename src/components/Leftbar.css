@@ -1,0 +1,24 @@
+.leftbar_div{
+    height: calc(100vh - 50px);
+    width: 200px;
+    background-color: cadetblue;
+    padding: 50px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.do_list{
+    margin: 0px;
+    color: wheat;
+    font-size: larger;
+    font-weight: 900;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+}
+
+.do_list li{
+    color: wheat;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.content_div{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    position: fixed;
+}
+
+/* .right_bar_div{
+    width: calc(100vw - 940px);
+    background-color: aqua;
+    border: 2px solid red;
+} */

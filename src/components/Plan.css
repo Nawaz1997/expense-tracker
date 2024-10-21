@@ -1,0 +1,80 @@
+#home_content_div {
+    width: calc(100vw - 260px);
+    margin: 30px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+#middle_line_div {
+    width: 5px;
+    background-color: violet;
+    margin: 20px 70px 20px 40px;
+    /* border: 2px solid red; */
+}
+
+#month_year_set_values_div{
+    width: 700px;
+    height: calc(100vh - 155px);
+    background-color: rgb(93, 161, 93);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    /* border: 2px solid red; */
+}
+
+#month_year_set_values_div::-webkit-scrollbar{
+    display: none;
+}
+
+#month_year_div{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+#month_div{
+    display: none;
+    /* border: 2px solid green; */
+}
+
+#year_div{
+    display: block;
+    /* border: 2px solid red; */
+}
+
+#month_year_div p{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    /* border: 2px solid red; */
+}
+
+.income_div{
+    /* border: 2px solid blue; */
+    display: flex;
+    padding-left: 94px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.income_div label{
+    font-size: large;
+    font-weight: 700;
+}
+
+.income_div input{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: wheat;
+}

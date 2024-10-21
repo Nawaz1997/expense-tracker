@@ -12,7 +12,7 @@ const ExpenseList = (props) => {
                     item={expense.item}
                     price={expense.price}
                     location = {expense.location}
-                    type = {expense.type}
+                    category = {expense.category}
                 />
             ))}
         </div>

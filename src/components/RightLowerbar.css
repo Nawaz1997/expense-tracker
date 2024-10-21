@@ -1,0 +1,4 @@
+.right_lower_bar_div{
+    /* border: 2px solid black; */
+    height: calc(100vh - 450px);
+}

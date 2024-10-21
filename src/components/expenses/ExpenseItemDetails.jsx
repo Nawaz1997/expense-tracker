@@ -6,7 +6,7 @@ const ExpenseItemDetails = (props) => {
     const price = props.price;
     const item = props.item;
     const location = props.location;
-    const type = props.type;
+    const category = props.category;
 
     return (
         <div className="expense_item_details_div">
@@ -15,7 +15,7 @@ const ExpenseItemDetails = (props) => {
                 <div className="item_div">
                     <div className="item_name_div">{item}</div>
                     <div className="location_div">{location}</div>
-                    <div className="type_div">({type})</div>
+                    <div className="type_div">({category})</div>
                 </div>
                 <div className="price_div">Rs.{price}</div>
             </div>

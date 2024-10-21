@@ -3,4 +3,11 @@
     background-color: black;
     border-radius: 10px;
     padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    overflow-y: scroll;
+    height: calc(100vh - 90px);
+}
+.expense_list::-webkit-scrollbar {
+    display: none;
 }
