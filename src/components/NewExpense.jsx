@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import { AuthContext } from '../contexts/AuthContext';
 import './NewExpense.css';
 
 const NewExpense = (props) => {
+    const { user } = useContext(AuthContext);
     const [item, setItem] = useState('');
     const [price, setPrice] = useState('');
     const [date, setDate] = useState('');
@@ -28,16 +30,32 @@ const NewExpense = (props) => {
         setCategory(event.target.value);
     };
 
+    const newExpense = {
+        UserId: user?._id,
+        date: new Date(date),
+        item: item,
+        price: price,
+        location: location,
+        category: category,
+    };
+
     const submitHandler = (event) => {
         event.preventDefault();
-        const newExpense = {
-            id: Math.random(),
-            date: new Date(date),
-            item: item,
-            price: price,
-            location: location,
-            category: category,
-        };
+
+        fetch('http://localhost:2000/api/expenses', {
+            method: 'POST',
+            body: JSON.stringify(newExpense),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
 
         props.updateExpenses(newExpense);
 

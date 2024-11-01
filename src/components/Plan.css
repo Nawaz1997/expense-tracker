@@ -51,7 +51,7 @@
     /* border: 2px solid red; */
 }
 
-#month_year_div p{
+#month_year_div .x{
     color: white;
     font-size: 25px;
     font-weight: 600;

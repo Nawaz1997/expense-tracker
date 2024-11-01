@@ -20,4 +20,10 @@
     font-size: 20px;
     font-weight: 500;
     margin-right: 50px;
+    display: flex;
+    list-style-type: none;
+}
+
+.list_div li{
+    padding: 20px;
 }

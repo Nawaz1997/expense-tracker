@@ -1,0 +1,67 @@
+#signup_container_div{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: rgb(194, 235, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup_form_div{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+#heading_div{
+    text-align: center;
+    color: green;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.input_div{
+    padding: 20px 150px 20px 150px;
+}
+
+.input_div input{
+    width: 320px;
+    height: 27px;
+    border-width: 0px 0px 2px 0px;
+}
+
+#sign_up_submit_btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;  
+}
+
+#sign_up_submit_btn input{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 0px;
+    color: white;
+    background-color: blue;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#already_signup_div{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+#already_signup_div p{
+    width: 100px;
+    height: 15px;
+    cursor: pointer;
+    color: green;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}

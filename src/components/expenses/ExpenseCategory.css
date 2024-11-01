@@ -1,0 +1,12 @@
+#category_div{
+    display: flex;
+    background-color: crimson;
+    overflow-x: scroll;
+}
+
+.categories{
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-weight: 700;
+}
