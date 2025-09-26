@@ -4,7 +4,7 @@ It is small project in which you can add daily and occasional expenses.<br/>
 You can add : <br/>
     1. purchased item<br/>
     2. date of purchase<br/>
-    3. location of purchase<br/><br/><br/>
+    3. location of purchase<br/><br/>
 
 Expenses are categorised into 6 categories, so that it becomes easy to monitor expenditure :<br/>
     1. Food<br/>
@@ -12,7 +12,7 @@ Expenses are categorised into 6 categories, so that it becomes easy to monitor e
     3. Accommodation<br/>
     4. Travel<br/>
     5. Health<br/>
-    6. Miscellaneous<br/><br/><br/>
+    6. Miscellaneous<br/><br/>
 
 A form is given to add expenses.<br/><br/>
 
