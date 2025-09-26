@@ -1,6 +1,6 @@
 Expense-Tracker, A web app created using MERN Stack.
 
-It is small project in which you can add daily and occasional expenses.
+It is small project in which you can add daily and occasional expenses.<br/>
 You can add : 
     1. purchased item
     2. date of purchase
