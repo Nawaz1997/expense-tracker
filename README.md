@@ -1,10 +1,12 @@
 Expense-Tracker, A web app created using MERN Stack.<br/><br/>
 
 It is small project in which you can add daily and occasional expenses.<br/>
-You can add : <br/>
+You can add : <br/><pre>
     1. purchased item<br/>
     2. date of purchase<br/>
     3. location of purchase<br/><br/>
+<pre/>
+    
 
 Expenses are categorised into 6 categories, so that it becomes easy to monitor expenditure :<br/>
     1. Food<br/>
